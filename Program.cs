@@ -20,7 +20,7 @@ class Program
         Console.WriteLine("Enter time in years:");
         int time = Convert.ToInt32(Console.ReadLine());
 
-        double total = principal * Math.Pow((1 + rate), time);
+        double total = principal * Math.Pow((1 + rate), 3);
 
         Console.WriteLine("Total amount after interest: $" + total);
     }
